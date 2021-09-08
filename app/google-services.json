@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "23318658294",
+    "project_id": "fitnity-d1e60",
+    "storage_bucket": "fitnity-d1e60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23318658294:android:79a63fc198c40c7e5f00d7",
+        "android_client_info": {
+          "package_name": "com.rockspace.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23318658294-nblmco22ib97fk00cpf0idk3nf2pd8a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJDdjy92rou9nEor4DXsAhpz3wqQvMryk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23318658294-nblmco22ib97fk00cpf0idk3nf2pd8a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

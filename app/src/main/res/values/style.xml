@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Button style  -->
+
+    <style name="Widget.AppCompat.Button.DefaultGradient">
+        <item name="android:padding">@dimen/margin_padding_6</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/btn_textSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">@dimen/btn_corner_radius</item>
+        <item name="android:background">@drawable/primary_gradient</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+<!--  Text style  -->
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+<!--  Header style  -->
+
+    <style name="Text.Header">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+    <style name="Text.Header.Header1">
+        <item name="android:textSize">@dimen/textSize_2</item>
+    </style>
+
+    <style name="Text.Header.Header2">
+        <item name="android:textSize">@dimen/textSize_3</item>
+    </style>
+
+    <style name="Text.Header.Header3">
+        <item name="android:textSize">@dimen/textSize_5</item>
+    </style>
+
+    <style name="Text.Header.Header4">
+        <item name="android:textSize">@dimen/textSize_7</item>
+    </style>
+
+<!--  Body style  -->
+
+    <style name="Text.Body">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="Text.Body.Body1">
+        <item name="android:textSize">@dimen/textSize_5</item>
+    </style>
+
+    <style name="Text.Body.Body2">
+        <item name="android:textSize">@dimen/textSize_7</item>
+    </style>
+
+    <style name="Text.Body.Body3">
+        <item name="android:textSize">@dimen/textSize_8</item>
+    </style>
+
+    <style name="Text.Body.Body4">
+        <item name="android:textSize">@dimen/textSize_9</item>
+    </style>
+
+    <!-- Alternative Text style  -->
+
+    <style name="TextAlternative">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/alternative_color</item>
+    </style>
+
+<!-- Alternative Header style  -->
+
+    <style name="TextAlternative.Header">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+    <style name="TextAlternative.Header.Header1">
+        <item name="android:textSize">@dimen/textSize_2</item>
+    </style>
+
+    <style name="TextAlternative.Header.Header2">
+        <item name="android:textSize">@dimen/textSize_3</item>
+    </style>
+
+    <style name="TextAlternative.Header.Header3">
+        <item name="android:textSize">@dimen/textSize_5</item>
+    </style>
+
+    <style name="TextAlternative.Header.Header4">
+        <item name="android:textSize">@dimen/textSize_7</item>
+    </style>
+
+<!-- Alternative Body style  -->
+
+    <style name="TextAlternative.Body">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="TextAlternative.Body.Body1">
+        <item name="android:textSize">@dimen/textSize_5</item>
+    </style>
+
+    <style name="TextAlternative.Body.Body2">
+        <item name="android:textSize">@dimen/textSize_7</item>
+    </style>
+
+    <style name="TextAlternative.Body.Body3">
+        <item name="android:textSize">@dimen/textSize_8</item>
+    </style>
+
+    <style name="TextAlternative.Body.Body4">
+        <item name="android:textSize">@dimen/textSize_9</item>
+    </style>
+
+
+<!--  Link style  -->
+    <style name="Text.Link">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+
+    <style name="Text.Link.Link1">
+        <item name="android:textSize">@dimen/textSize_5</item>
+    </style>
+
+    <style name="Text.Link.Link2">
+        <item name="android:textSize">@dimen/textSize_7</item>
+    </style>
+
+    <style name="Text.Link.Link3">
+        <item name="android:textSize">@dimen/textSize_8</item>
+    </style>
+
+    <style name="Text.Link.Link4">
+        <item name="android:textSize">@dimen/textSize_9</item>
+    </style>
+</resources>
