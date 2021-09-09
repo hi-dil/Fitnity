@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<!--  Button style  -->
+    <!--  Button style  -->
 
     <style name="Widget.AppCompat.Button.DefaultGradient">
         <item name="android:padding">@dimen/margin_padding_6</item>
@@ -15,7 +15,7 @@
     </style>
 
 
-<!--  Text style  -->
+    <!--  Text style  -->
 
     <style name="Text">
         <item name="android:layout_width">wrap_content</item>
@@ -23,7 +23,7 @@
         <item name="android:textColor">?attr/colorPrimary</item>
     </style>
 
-<!--  Header style  -->
+    <!--  Header style  -->
 
     <style name="Text.Header">
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
@@ -45,7 +45,7 @@
         <item name="android:textSize">@dimen/textSize_7</item>
     </style>
 
-<!--  Body style  -->
+    <!--  Body style  -->
 
     <style name="Text.Body">
         <item name="android:fontFamily">@font/montserrat_regular</item>
@@ -75,7 +75,7 @@
         <item name="android:textColor">@color/alternative_color</item>
     </style>
 
-<!-- Alternative Header style  -->
+    <!-- Alternative Header style  -->
 
     <style name="TextAlternative.Header">
         <item name="android:fontFamily">@font/montserrat_semi_bold</item>
@@ -97,7 +97,7 @@
         <item name="android:textSize">@dimen/textSize_7</item>
     </style>
 
-<!-- Alternative Body style  -->
+    <!-- Alternative Body style  -->
 
     <style name="TextAlternative.Body">
         <item name="android:fontFamily">@font/montserrat_regular</item>
@@ -120,7 +120,7 @@
     </style>
 
 
-<!--  Link style  -->
+    <!--  Link style  -->
     <style name="Text.Link">
         <item name="android:fontFamily">@font/montserrat_bold</item>
         <item name="android:textColor">@color/secondary_color</item>
@@ -140,5 +140,17 @@
 
     <style name="Text.Link.Link4">
         <item name="android:textSize">@dimen/textSize_9</item>
+    </style>
+
+    <!--  Text Input Layout  -->
+    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.DefaultEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
     </style>
 </resources>
