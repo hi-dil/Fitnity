@@ -57,4 +57,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-firestore'
 
+    // External libraries
+    implementation 'com.github.santalu:maskara:1.0.0' // for mobile number formatting
+    implementation 'com.mikhaellopez:circularimageview:4.3.0'
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+
 }

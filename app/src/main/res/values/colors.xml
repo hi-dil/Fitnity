@@ -13,4 +13,6 @@
     <color name="secondary_color">#0071B0</color>
     <color name="background">#F9F9F9</color>
     <color name="alternative_color">#AEAEAE</color>
+    <color name="success_color">#006E5A</color>
+    <color name="warning_color">#B20000</color>
 </resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/margin_padding_6"
+    android:layout_margin="@dimen/margin_padding_5"
+    android:elevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/margin_padding_6"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/civ_userProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_profile_placeholder"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            style="@style/Text.Body.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/civ_userProfile"
+            android:layout_alignBottom="@id/civ_userProfile"
+            android:layout_alignEnd="@id/ib_accept"
+            android:layout_toEndOf="@id/civ_userProfile"
+            android:text="username"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_padding_6"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/ib_decline"
+            android:src="@drawable/ic_checkmark"
+            android:paddingEnd="0dp"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:id="@+id/ib_accept"
+            app:tint="@color/success_color" />
+
+        <ImageButton
+            android:id="@+id/ib_decline"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/ib_message"
+            android:paddingStart="0dp"
+            android:src="@drawable/ic_close"
+            app:tint="@color/warning_color" />
+
+        <ImageButton
+            android:id="@+id/ib_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:src="@drawable/ic_message"
+            android:layout_alignParentEnd="true"/>
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

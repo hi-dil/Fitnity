@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fitnity">
         <activity
+            android:name=".UI.activity.DetailsCommunityPostActivity"
+            android:exported="true" />
+        <activity
             android:name=".UI.activity.ManageCommunityPostActivity"
             android:exported="true" />
         <activity
