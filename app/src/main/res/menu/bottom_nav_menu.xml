@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homeFragment"
+        android:title="Home"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:menuCategory="secondary"
+        android:icon="@drawable/bottom_nav_ic_home"/>
+
+    <item android:id="@+id/communityFragment"
+        android:title="Community"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:menuCategory="secondary"
+        android:icon="@drawable/bottom_nav_ic_community"/>
+
+
+    <item android:id="@+id/newsFragment"
+        android:title="News"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:menuCategory="secondary"
+        android:icon="@drawable/bottom_nav_ic_news"/>
+
+    <item android:id="@+id/bookingFragment"
+        android:title="Facilities Information"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:menuCategory="secondary"
+        android:icon="@drawable/bottom_nav_ic_booking"/>
+</menu>

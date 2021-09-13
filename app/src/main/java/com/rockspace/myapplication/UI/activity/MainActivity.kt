@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         binding.textview.setOnClickListener {
-            val intent = Intent(this, ManageCommunityPostActivity::class.java)
+            val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
     }

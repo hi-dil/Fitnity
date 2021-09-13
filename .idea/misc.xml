@@ -7,6 +7,8 @@
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/dw_tag_blue.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/dw_tag_green.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/dw_tag_red.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/ic_back.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/ic_person.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/drawable/primary_gradient.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/layout/activity_dashboard.xml" value="0.3546875" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/layout/activity_details_community_post.xml" value="0.25" />
@@ -15,6 +17,7 @@
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/layout/item_community_post_list.xml" value="0.33" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/layout/item_news_list_.xml" value="0.33" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/layout/item_user_list.xml" value="0.3546875" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Fitnity/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3546875" />
       </map>
     </option>
   </component>
