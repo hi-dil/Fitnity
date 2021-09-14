@@ -26,7 +26,7 @@
     <dimen name="margin_padding_4">16dp</dimen>
     <dimen name="margin_padding_3">32dp</dimen>
     <dimen name="margin_padding_2">40dp</dimen>
-    <dimen name="margin_padding_1">48dp</dimen>
+    <dimen name="margin_padding_1">64dp</dimen>
 
     <dimen name="radio_button_radius">5dp</dimen>
 
