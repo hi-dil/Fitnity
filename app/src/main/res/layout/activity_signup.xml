@@ -153,7 +153,7 @@
             android:text="Sign In"
             style="@style/Text.Header.Header4"
             android:textColor="@color/secondary_color"
-            android:id="@+id/tv_signUp"/>
+            android:id="@+id/tv_signIn"/>
     </LinearLayout>
 
 

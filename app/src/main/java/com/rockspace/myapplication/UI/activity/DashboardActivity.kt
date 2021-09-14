@@ -15,6 +15,9 @@ class DashboardActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_dashboard)
 
         setUpNavigation()
+
+
+
     }
 
     private fun setUpNavigation() {
